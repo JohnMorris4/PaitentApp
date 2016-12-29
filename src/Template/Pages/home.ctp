@@ -25,7 +25,7 @@ if (!Configure::read('debug')):
     throw new NotFoundException('Please replace src/Template/Pages/home.ctp with your own version.');
 endif;
 
-$cakeDescription = 'CakePHP: the rapid development PHP framework';
+$cakeDescription = 'Patient Care | Home Page';
 ?>
 <!DOCTYPE html>
 <html>
@@ -43,7 +43,8 @@ $cakeDescription = 'CakePHP: the rapid development PHP framework';
     <header>
         <div class="header-image">
             <?= $this->Html->image('http://cakephp.org/img/logo-cake.png') ?>
-            <h1>Get the Ovens Ready</h1>
+            <h1>Welcome to The Patient Portal</h1>
+            <button><a href="src/Templete/Patients/index.ctp"></a>Click Here to Begin</button>
         </div>
     </header>
     <div id="content">

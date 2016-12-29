@@ -20,13 +20,6 @@
             <th scope="row"><?= __('Appointment Date') ?></th>
             <td><?= h($appointment->appointment_date) ?></td>
         </tr>
-        <tr>
-            <th scope="row"><?= __('Created') ?></th>
-            <td><?= h($appointment->created) ?></td>
-        </tr>
-        <tr>
-            <th scope="row"><?= __('Modified') ?></th>
-            <td><?= h($appointment->modified) ?></td>
-        </tr>
+
     </table>
 </div>

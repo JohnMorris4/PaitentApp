@@ -24,13 +24,6 @@
             <th scope="row"><?= __('Due') ?></th>
             <td><?= h($invoice->due) ?></td>
         </tr>
-        <tr>
-            <th scope="row"><?= __('Created') ?></th>
-            <td><?= h($invoice->created) ?></td>
-        </tr>
-        <tr>
-            <th scope="row"><?= __('Modified') ?></th>
-            <td><?= h($invoice->modified) ?></td>
-        </tr>
+
     </table>
 </div>
